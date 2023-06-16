@@ -6,7 +6,7 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/thehelpfultipper/
 Learn how to leverage the power of the Fetch API to retrieve data from external sources and create an interactive Pokémon application.
 
 ## Tutorial Overview
-The tutorial covers the following topics:
+[How To Use JavaScript Fetch API With Pokémon Example](https://thehelpfultipper.com/javascript-fetch-api-pokemon-example/) covers the following topics:
 
 - Introduction to the Fetch API and its benefits.
 - Setting up the project and dependencies.
@@ -19,5 +19,5 @@ The tutorial covers the following topics:
 ## License
 This project is licensed under the MIT License. Feel free to use the code for personal or commercial projects.
 
-For the detailed tutorial, visit the blog post.
+For the detailed tutorial, visit the [blog](https://thehelpfultipper.com/).
 
