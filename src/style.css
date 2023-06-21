@@ -17,15 +17,19 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: 'Open Sans', sans-serif;
 }
 
 #cards-container {
-  background: var(--main-blue);
   width: 100%;
-/*   height: 100vh; */
   height: 100%;
+  background: var(--main-blue);
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: scroll;
   position: relative;
+}
+
+.dot-slider {
+  display: none;
 }
 
 .card {
@@ -149,11 +153,15 @@ svg:hover {
   color: inherit;
 }
 
-/* .no-show {
+.loading-animation {
   position: absolute;
-  left: 27.5%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #32C2F0;
+  font-size: 1.02rem;
   display: none;
-} */
+}
 
 @keyframes show-off {
   25% {
@@ -162,4 +170,35 @@ svg:hover {
   100% {
 transform: rotateY(-5deg);
   }
+}
+
+@media (max-width: 600px) {
+  svg {
+    display: none;
+  }
+  
+  .dot-slider {
+    display: block;
+    position: absolute;
+    top: calc(15% + 435px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border-radius: 50%;
+    background: var(--hover-blue); 
+  }
+  
+  .active {
+    background: var(--bright-blue);
+  }
+  
 }
