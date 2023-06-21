@@ -16,6 +16,14 @@ Learn how to leverage the power of the Fetch API to retrieve data from external 
 - Adding styling and interactivity to enhance the user experience.
 - Exploring additional features and customization options.
 
+[How To Make Your Pokémon API Project Interactive](https://thehelpfultipper.com/make-pokemon-api-project-interactive/) covers these additional topics: 
+
+- Swipe Navigation
+- Responsive Behavior
+- Loading Animation
+
+*Note: This post is a companion to "How To Use JavaScript Fetch API With Pokémon Example". Please refer to the blog post for comprehensive instructions.*
+
 ## License
 This project is licensed under the MIT License. Feel free to use the code for personal or commercial projects.
 
